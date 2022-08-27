@@ -1,0 +1,10 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "todo-app-attachments-stack"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-1i1fu54xc3wfs"
+s3_prefix = "todo-app-attachments-stack"
+region = "ca-central-1"
+capabilities = "CAPABILITY_NAMED_IAM"
+image_repositories = []

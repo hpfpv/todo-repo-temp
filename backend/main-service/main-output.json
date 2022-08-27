@@ -1,0 +1,60 @@
+{
+    "Stacks": [
+        {
+            "StackId": "arn:aws:cloudformation:ca-central-1:601091111123:stack/todo-app-main-stack/f35c6630-260e-11ed-b09e-0a43f69dcfce",
+            "StackName": "todo-app-main-stack",
+            "ChangeSetId": "arn:aws:cloudformation:ca-central-1:601091111123:changeSet/samcli-deploy1661608115/a7649b5e-96a6-42ce-8103-7ad1a77b8977",
+            "Description": "Stack for todo app main service",
+            "CreationTime": "2022-08-27T13:48:37.470000+00:00",
+            "LastUpdatedTime": "2022-08-27T13:48:48.358000+00:00",
+            "RollbackConfiguration": {},
+            "StackStatus": "CREATE_COMPLETE",
+            "DisableRollback": false,
+            "NotificationARNs": [],
+            "Capabilities": [
+                "CAPABILITY_IAM"
+            ],
+            "Outputs": [
+                {
+                    "OutputKey": "MainHttpApi",
+                    "OutputValue": "https://efibwua68k.execute-api.ca-central-1.amazonaws.com/dev",
+                    "ExportName": "todo-app-main-stack-MainHttpApiURL"
+                },
+                {
+                    "OutputKey": "TodoUserPoolClient",
+                    "OutputValue": "1of8vha4uc87fojj3lf2n6t78f",
+                    "ExportName": "todo-app-main-stack-TodoUserPoolClient"
+                },
+                {
+                    "OutputKey": "TodoTable",
+                    "OutputValue": "TodoTable-todo-app-main-stack",
+                    "ExportName": "todo-app-main-stack-TodoTable"
+                },
+                {
+                    "OutputKey": "TodoUserPool",
+                    "OutputValue": "ca-central-1_c3eU0B5cA",
+                    "ExportName": "todo-app-main-stack-TodoUserPool"
+                },
+                {
+                    "OutputKey": "TodoUserPoolArn",
+                    "OutputValue": "arn:aws:cognito-idp:ca-central-1:601091111123:userpool/ca-central-1_c3eU0B5cA",
+                    "ExportName": "todo-app-main-stack-TodoUserPoolArn"
+                },
+                {
+                    "OutputKey": "TodoTableArn",
+                    "OutputValue": "arn:aws:dynamodb:ca-central-1:601091111123:table/TodoTable-todo-app-main-stack",
+                    "ExportName": "todo-app-main-stack-TodoTableArn"
+                },
+                {
+                    "OutputKey": "StackName",
+                    "OutputValue": "todo-app-main-stack"
+                }
+            ],
+            "Tags": [],
+            "EnableTerminationProtection": false,
+            "DriftInformation": {
+                "StackDriftStatus": "NOT_CHECKED"
+            }
+        }
+    ]
+}

@@ -1,0 +1,65 @@
+{
+    "Stacks": [
+        {
+            "StackId": "arn:aws:cloudformation:ca-central-1:601091111123:stack/todo-app-attachments-stack/c68c93e0-260f-11ed-b4cb-02b334969792",
+            "StackName": "todo-app-attachments-stack",
+            "ChangeSetId": "arn:aws:cloudformation:ca-central-1:601091111123:changeSet/samcli-deploy1661608470/28ec600a-16ef-48b1-a83c-6197c4b9abf7",
+            "Description": "Stack for todo app attachement service",
+            "CreationTime": "2022-08-27T13:54:31.729000+00:00",
+            "LastUpdatedTime": "2022-08-27T13:54:42.733000+00:00",
+            "RollbackConfiguration": {},
+            "StackStatus": "CREATE_COMPLETE",
+            "DisableRollback": false,
+            "NotificationARNs": [],
+            "Capabilities": [
+                "CAPABILITY_NAMED_IAM"
+            ],
+            "Outputs": [
+                {
+                    "OutputKey": "TodoFilesBucketArn",
+                    "OutputValue": "arn:aws:s3:::todo-app-files-aug-2708",
+                    "ExportName": "todo-app-attachments-stack-TodoFilesBucketArn"
+                },
+                {
+                    "OutputKey": "FilesApi",
+                    "OutputValue": "https://gml9jb3ta8.execute-api.ca-central-1.amazonaws.com/dev",
+                    "ExportName": "todo-app-attachments-stack-FilesApiURL"
+                },
+                {
+                    "OutputKey": "TodoFilesBucket",
+                    "OutputValue": "todo-app-files-aug-2708",
+                    "ExportName": "todo-app-attachments-stack-TodoFilesBucket"
+                },
+                {
+                    "OutputKey": "TodoFilesTable",
+                    "OutputValue": "TodoFilesTable-todo-app-attachments-stack",
+                    "ExportName": "todo-app-attachments-stack-TodoFilesTable"
+                },
+                {
+                    "OutputKey": "TodoIdentityPoolId",
+                    "OutputValue": "ca-central-1:c1d439b1-49ce-492b-986c-8b456d1e9fe2",
+                    "ExportName": "todo-app-attachments-stack-TodoIdentityPoolId"
+                },
+                {
+                    "OutputKey": "TodoFilesTableArn",
+                    "OutputValue": "arn:aws:dynamodb:ca-central-1:601091111123:table/TodoFilesTable-todo-app-attachments-stack",
+                    "ExportName": "todo-app-attachments-stack-TodoFilesTableArn"
+                },
+                {
+                    "OutputKey": "StackName",
+                    "OutputValue": "todo-app-attachments-stack"
+                },
+                {
+                    "OutputKey": "TodoFilesBucketCFDomainName",
+                    "OutputValue": "d3silfce1xr2qp.cloudfront.net",
+                    "ExportName": "todo-app-attachments-stack-TodoFilesBucketCFDomainName"
+                }
+            ],
+            "Tags": [],
+            "EnableTerminationProtection": false,
+            "DriftInformation": {
+                "StackDriftStatus": "NOT_CHECKED"
+            }
+        }
+    ]
+}
